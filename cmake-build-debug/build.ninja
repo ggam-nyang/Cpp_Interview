@@ -71,6 +71,37 @@ build Chapter4: CXX_EXECUTABLE_LINKER__Chapter4_Debug CMakeFiles/Chapter4.dir/Ch
   TARGET_FILE = Chapter4
   TARGET_PDB = Chapter4.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Chapter5
+
+
+#############################################
+# Order-only phony target for Chapter5
+
+build cmake_object_order_depends_target_Chapter5: phony || CMakeFiles/Chapter5.dir
+
+build CMakeFiles/Chapter5.dir/Chapter5/5-1/5-1.cpp.o: CXX_COMPILER__Chapter5_unscanned_Debug /Users/ggam-nyang/Passions/C++/Cpp_Interview/Chapter5/5-1/5-1.cpp || cmake_object_order_depends_target_Chapter5
+  DEP_FILE = CMakeFiles/Chapter5.dir/Chapter5/5-1/5-1.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Chapter5.dir
+  OBJECT_FILE_DIR = CMakeFiles/Chapter5.dir/Chapter5/5-1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Chapter5
+
+
+#############################################
+# Link the executable Chapter5
+
+build Chapter5: CXX_EXECUTABLE_LINKER__Chapter5_Debug CMakeFiles/Chapter5.dir/Chapter5/5-1/5-1.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+  OBJECT_DIR = CMakeFiles/Chapter5.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Chapter5
+  TARGET_PDB = Chapter5.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -105,7 +136,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/ggam-nyang/Passions/C++/Cpp_Interview/cmake-build-debug
 
-build all: phony Chapter4
+build all: phony Chapter4 Chapter5
 
 # =============================================================================
 # Built-in targets

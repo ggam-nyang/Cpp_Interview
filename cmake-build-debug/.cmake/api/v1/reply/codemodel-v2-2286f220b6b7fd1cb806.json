@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "LobbyServer",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "Chapter4::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Chapter4-Debug-78460cba3390f805c4cb.json",
 					"name" : "Chapter4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Chapter5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Chapter5-Debug-508ae7dbec67f9ead55d.json",
+					"name" : "Chapter5",
 					"projectIndex" : 0
 				}
 			]
