@@ -164,6 +164,37 @@ build Chapter5-3: CXX_EXECUTABLE_LINKER__Chapter5-3_Debug CMakeFiles/Chapter5-3.
   TARGET_FILE = Chapter5-3
   TARGET_PDB = Chapter5-3.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Chapter5-4
+
+
+#############################################
+# Order-only phony target for Chapter5-4
+
+build cmake_object_order_depends_target_Chapter5-4: phony || CMakeFiles/Chapter5-4.dir
+
+build CMakeFiles/Chapter5-4.dir/Chapter5/5-4/5-4.cpp.o: CXX_COMPILER__Chapter5-4_unscanned_Debug /Users/ggam-nyang/Passions/C++/Cpp_Interview/Chapter5/5-4/5-4.cpp || cmake_object_order_depends_target_Chapter5-4
+  DEP_FILE = CMakeFiles/Chapter5-4.dir/Chapter5/5-4/5-4.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Chapter5-4.dir
+  OBJECT_FILE_DIR = CMakeFiles/Chapter5-4.dir/Chapter5/5-4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Chapter5-4
+
+
+#############################################
+# Link the executable Chapter5-4
+
+build Chapter5-4: CXX_EXECUTABLE_LINKER__Chapter5-4_Debug CMakeFiles/Chapter5-4.dir/Chapter5/5-4/5-4.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+  OBJECT_DIR = CMakeFiles/Chapter5-4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Chapter5-4
+  TARGET_PDB = Chapter5-4.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -198,7 +229,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/ggam-nyang/Passions/C++/Cpp_Interview/cmake-build-debug
 
-build all: phony Chapter4-1 Chapter5-1 Chapter5-2 Chapter5-3
+build all: phony Chapter4-1 Chapter5-1 Chapter5-2 Chapter5-3 Chapter5-4
 
 # =============================================================================
 # Built-in targets
