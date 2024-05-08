@@ -10,3 +10,4 @@ add_executable(Chapter5-3 Chapter5/5-3/5-3.cpp)
 
 add_executable(Chapter5-4 Chapter5/5-4/5-4.cpp)
 add_executable(Chapter5-5 Chapter5/5-5/5-5.cpp)
+add_executable(Chapter5-6 Chapter5/5-6/5-6.cpp)
