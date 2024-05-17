@@ -19,3 +19,4 @@ std::string ConstructFromBase(int num_as_int, int base) {
     return num_as_int == 0 ? "" : ConstructFromBase(num_as_int / base, base) + static_cast<char>(num_as_int % base >= 10 ? 'A' + num_as_int % base - 10 : '0' + num_as_int % base);
 }
 ```
+시간복잡도는 O(n(1 + logb2b1))이 된다.
