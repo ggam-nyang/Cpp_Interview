@@ -319,6 +319,37 @@ build Chapter6-2: CXX_EXECUTABLE_LINKER__Chapter6-2_Debug CMakeFiles/Chapter6-2.
   TARGET_FILE = Chapter6-2
   TARGET_PDB = Chapter6-2.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Chapter6-5
+
+
+#############################################
+# Order-only phony target for Chapter6-5
+
+build cmake_object_order_depends_target_Chapter6-5: phony || CMakeFiles/Chapter6-5.dir
+
+build CMakeFiles/Chapter6-5.dir/Chapter6/6-5/6-5.cpp.o: CXX_COMPILER__Chapter6-5_unscanned_Debug /Users/ggam-nyang/Passions/C++/Cpp_Interview/Chapter6/6-5/6-5.cpp || cmake_object_order_depends_target_Chapter6-5
+  DEP_FILE = CMakeFiles/Chapter6-5.dir/Chapter6/6-5/6-5.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Chapter6-5.dir
+  OBJECT_FILE_DIR = CMakeFiles/Chapter6-5.dir/Chapter6/6-5
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Chapter6-5
+
+
+#############################################
+# Link the executable Chapter6-5
+
+build Chapter6-5: CXX_EXECUTABLE_LINKER__Chapter6-5_Debug CMakeFiles/Chapter6-5.dir/Chapter6/6-5/6-5.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+  OBJECT_DIR = CMakeFiles/Chapter6-5.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Chapter6-5
+  TARGET_PDB = Chapter6-5.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -353,7 +384,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/ggam-nyang/Passions/C++/Cpp_Interview/cmake-build-debug
 
-build all: phony Chapter4-1 Chapter5-1 Chapter5-2 Chapter5-3 Chapter5-4 Chapter5-5 Chapter5-6 Chapter6-1 Chapter6-2
+build all: phony Chapter4-1 Chapter5-1 Chapter5-2 Chapter5-3 Chapter5-4 Chapter5-5 Chapter5-6 Chapter6-1 Chapter6-2 Chapter6-5
 
 # =============================================================================
 # Built-in targets
