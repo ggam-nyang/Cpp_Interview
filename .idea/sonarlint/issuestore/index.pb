@@ -21,3 +21,5 @@ D
 Chapter6/6-5/6-5.cpp,a/d/ad25dd15cb987e43d6309f047566933067a2f7eb
 F
 Chapter6/6-6/README.md,c/4/c4a4c718d7488d6783236a8381cead4500ddf40f
+F
+Chapter6/6-7/README.md,9/d/9dea89350a48121ebd91ea28085c726c00b98f86
