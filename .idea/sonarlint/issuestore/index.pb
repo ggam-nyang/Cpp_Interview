@@ -23,3 +23,5 @@ F
 Chapter6/6-6/README.md,c/4/c4a4c718d7488d6783236a8381cead4500ddf40f
 F
 Chapter6/6-7/README.md,9/d/9dea89350a48121ebd91ea28085c726c00b98f86
+G
+Chapter5/5-11/README.md,c/8/c8b6d148192c29e28bd9a2faabef8a0206a24ea8
