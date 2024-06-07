@@ -25,3 +25,15 @@ F
 Chapter6/6-7/README.md,9/d/9dea89350a48121ebd91ea28085c726c00b98f86
 G
 Chapter5/5-11/README.md,c/8/c8b6d148192c29e28bd9a2faabef8a0206a24ea8
+F
+Chapter5/5-2/README.md,9/d/9d24dee8217ebd6cd1c3ba434085d90179287143
+F
+Chapter5/5-3/README.md,b/3/b3c221c12c50c3d0c83c2026e3649193f9acee21
+F
+Chapter5/5-4/README.md,4/c/4cb0fdd669c0b462b5a5bab1e5d9a977f6b132f9
+F
+Chapter5/5-6/README.md,4/0/40139bb3c9c8439ec63d8a630145e7085d10f87a
+F
+Chapter4/4-1/README.md,d/8/d8cf7787f3e739b99275eba22ffa94632c427b4c
+F
+Chapter6/6-8/README.md,6/4/645ea94f70a1ef5b4eada3eab253579c13b8a5c3
