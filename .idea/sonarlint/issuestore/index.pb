@@ -37,3 +37,5 @@ F
 Chapter4/4-1/README.md,d/8/d8cf7787f3e739b99275eba22ffa94632c427b4c
 F
 Chapter6/6-8/README.md,6/4/645ea94f70a1ef5b4eada3eab253579c13b8a5c3
+F
+Chapter6/6-9/README.md,f/9/f9128a4bed291bcb6a31c6c9137aaa0e1ea52e16
