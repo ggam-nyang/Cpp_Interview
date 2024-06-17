@@ -41,3 +41,5 @@ F
 Chapter6/6-9/README.md,f/9/f9128a4bed291bcb6a31c6c9137aaa0e1ea52e16
 G
 Chapter5/5-12/README.md,8/b/8b67e21c0c3ecbbf9c6e3372ea0e429a790f4820
+G
+Chapter6/6-10/README.md,a/4/a401547f486c142d58444fe2a081e7bc3364e682
